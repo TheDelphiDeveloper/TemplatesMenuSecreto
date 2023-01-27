@@ -1,7 +1,7 @@
 # TemplatesMenuSecreto
 
 Como criar um template para Delphi (Post Menu Secreto)
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
 				version="1.0.0">
