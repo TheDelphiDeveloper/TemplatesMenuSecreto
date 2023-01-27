@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="MinhaQuery" invoke="manual">  
+		<description> 
+          Estrutura Prontas para Insert
+		</description>
+		<author>
+           The Delphi Developer
+		</author> 
+		<code language="Delphi"><![CDATA[var SQLQuery1 := TSQLQuery.Create(Nil);
+  try
+    SQLQuery1.SQLConnection := ;
+    SQLQuery1.SQL.Clear;
+    SQLQuery1.SQL.Text('INSERT INTO TABLE() VALUES ();');
+    SQLQuery1.ExecSQL;
+    SQLQuery1.Close;
+  finally
+    SQLQuery1.Free;
+  end;]]>
+		</code>
+	</template>
+</codetemplate>
